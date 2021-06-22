@@ -1,5 +1,5 @@
 Page({
- data:{
-   value:'init'
- }
+  data: {
+    value: ''
+  }
 })

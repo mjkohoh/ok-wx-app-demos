@@ -1,4 +1,8 @@
-<view class="container">
-  <input model:value="{{value}}" />
-  <text>{{value}}</text>
+<view class="page-body">
+  <view class="weui-cells__title">双向绑定input：{{value}}</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <input class="weui-input" model:value="{{value}}" placeholder="双向绑定输入" />
+    </view>
+  </view>
 </view>
