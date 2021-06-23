@@ -1,0 +1,16 @@
+<template name="staffName">
+  <view>
+    Firstname: {{firstname}}, Lastname: {{lastname}}
+  </view>
+</template>
+
+<template is="staffName" data="{{...staffA}}"></template>
+<template is="staffName" data="{{...staffB}}"></template>
+<template is="staffName" data="{{...staffC}}"></template>
+
+<import src="./item.wxml" />
+<template is='item' data="{{text:'forbar'}}"></template>
+
+<include src="./header.wxml" />
+<view>body</view>
+<include src="./footer.wxml" />
