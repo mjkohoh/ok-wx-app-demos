@@ -1,0 +1,21 @@
+button {
+  width: auto !important;
+  margin-bottom: 20px;
+}
+
+.mini-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom1{
+  background: #d616a6;
+}
+
+.custom2{
+  background-color: #ffffff;
+  border-color: #d616a6;
+  color: #d616a6;
+  border-style: solid;
+  border-width: 1px;
+}

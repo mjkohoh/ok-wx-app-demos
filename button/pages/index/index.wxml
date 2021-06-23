@@ -1,0 +1,18 @@
+<button type="primary">Primary Normal</button>
+<button type="primary" loading="true">Primary Loading</button>
+<button type="primary" disabled="true">Primary Disabled</button>
+<button type="default">Default Normal</button>
+<button type="default" disabled="true">Default Disabled</button>
+<button type="warn">Warn Normal</button>
+<button type="warn" disabled="true">Warn Disabled</button>
+<button type="primary" plain="true">Primary Plain</button>
+<button type="primary" plain disabled>Primary Plain Disabled</button>
+<button plain>Default Plain</button>
+<button plain disabled>Default Plain Disabled</button>
+<view class="mini-wrapper">
+  <button type="primary" size="mini">primary</button>
+  <button type="default" size="mini">default</button>
+  <button type="warn" size="mini">warn</button>
+</view>
+<button class="custom1">custom1</button>
+<button class="custom2">custom2</button>
