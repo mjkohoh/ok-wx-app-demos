@@ -1,0 +1,15 @@
+
+var getMax=function(array) {
+  var max=undefined;
+  for(var i=0;i<array.length;i++){
+    if(i===0){
+      max=array[i]
+    }
+    if(array[i]>max){
+      max=array[i]
+    }
+  }
+  return max;
+}
+
+module.exports.getMax=getMax;

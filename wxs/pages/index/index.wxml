@@ -1,0 +1,8 @@
+<wxs module="m1">
+  var msg="hellow world";
+  module.exports.message=msg;
+</wxs>
+<wxs src='./m2.wxs' module="m2"></wxs>
+
+<view>{{m1.message}}</view>
+<view>{{m2.getMax(array)}}</view>
