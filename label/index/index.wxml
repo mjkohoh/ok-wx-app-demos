@@ -1,0 +1,18 @@
+<checkbox-group>
+  <label wx:for="{{items}}" wx:key="value">
+    <checkbox value="{{item.value}}" checked="{{item.checked}}"></checkbox>
+    <text>{{item.name}}</text>
+  </label>
+</checkbox-group>
+
+<radio-group>
+  <view wx:for="{{items}}" wx:key="value">
+    <radio value="{{item.value}}" checked="{{item.checked}}"></radio>
+    <label for="item.value"><text>{{item.name}}</text></label>
+  </view>
+</radio-group>
+
+<label>
+  <checkbox value="USA">美国</checkbox>
+  <checkbox value="CHN">中国</checkbox>
+</label>
