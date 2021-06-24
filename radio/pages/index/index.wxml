@@ -1,0 +1,13 @@
+<view>默认样式</view>
+<label>
+  <radio value="r1" checked="true"></radio>选中
+</label>
+<label>
+  <radio value="r2"></radio>未选中
+</label>
+
+<radio-group bindchange="radioChange">
+  <label wx:for="{{items}}" wx:key="value">
+    <radio value="{{item.value}}" checked="{{item.checked}}"></radio>{{item.name}}
+  </label>
+</radio-group>
