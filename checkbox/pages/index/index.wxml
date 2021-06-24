@@ -1,0 +1,18 @@
+<view>默认样式</view>
+<label>
+  <checkbox value="cb" checked="true"></checkbox>选中
+</label>
+<label>
+  <checkbox value="cb"></checkbox>未选中
+</label>
+<view>推荐展示样式</view>
+<view class="weui-cells weui-cells_after-title">
+  <checkbox-group bindchange="checkboxChange">
+    <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="value">
+      <view class="weui-cell__hd">
+        <checkbox value="{{item.value}}" checked="{{item.checked}}"></checkbox>
+        <view class="weui-cell__bd">{{item.name}}</view>
+      </view>
+    </label>
+  </checkbox-group>
+</view>
