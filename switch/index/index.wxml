@@ -1,0 +1,8 @@
+<view>type:switch</view>
+<view>
+  <switch checked="{{switch1Checked}}" bindchange="switch1Change"></switch>
+</view>
+<view>type:checkbox</view>
+<view>
+  <switch type="checkbox" checked="{{switchChecked}}" bindchange="switch2Change"></switch>
+</view>
